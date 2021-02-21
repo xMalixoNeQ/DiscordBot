@@ -6,6 +6,5 @@ bot = Discordrb::Commands::ComandBot.new token: "#{bottoken}", client_id: "#{con
 bot.message(content: 'ping') do |event|
    event.respont 'Pong!'
 end    
-/ Aby Startować bota wpisz ruby main.rb /
 at_exit ( bot.stop )
 bot.run
